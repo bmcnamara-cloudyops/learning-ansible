@@ -1,2 +1,2 @@
 ---
-nginx_doc_root: /var/www/html
+nginx_doc_root: /usr/share/nginx/html
