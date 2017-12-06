@@ -1,0 +1,13 @@
+---
+- name: install nginx package
+  apt:
+    name: nginx
+    update_cache: yes
+
+- name: copy in index.html page
+  template:
+    src: index.html.j2
+    dest: "{{ nginx_doc_root }}/index.html"
+    owner: root
+    group: root
+    mode: 0644

@@ -27,7 +27,7 @@ pip install -r requirements.txt
 Vagrant has a rich command-line interface (CLI) that allows for management of virtual machines.  I've listed several subcommands that are commonly used with vagrant.  For a more thorough reference please consult [the CLI docs](https://www.vagrantup.com/docs/cli/)
 
 ```
-vagrant status
+vagrant status      # Print out the status of a virtual machine
 vagrant up          # Bring up a virtual machine
 vagrant halt        # Bring down a virtual machine
 vagrant reload      # Perform a vagrant halt followed by a vagrant up
